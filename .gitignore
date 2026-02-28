@@ -10,3 +10,4 @@ venv.bak/
 reverse_proxy/*.exe
 reverse_proxy/*.zip
 reverse_proxy/caddy*
+
