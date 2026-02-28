@@ -1,4 +1,4 @@
-from htpy import html, head, meta, body, h1, p, h2
+from htpy import html, head, meta, body, h1, p, h2, a
 from fastapi.responses import HTMLResponse
 from fastapi import FastAPI, Request, HTTPException
 
@@ -21,6 +21,7 @@ def root(request: Request):
         body[
             h1["Тема:"],
             h2[TOPIC],
+            a(href="http://127.0.0.1:8003/")["Перейти на client-сервер"],
             p["ляляляляляля"],
             ],
                     ] 
