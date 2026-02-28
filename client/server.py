@@ -18,7 +18,7 @@ def root():
             h2(id="status"),            
             p(id="msg"),                
             button(id="btn", disabled=True)["Классная тема!"],
-            script[f'window.WS_URL = "ws://127.0.0.1:8002/ws";'],#кладем адрес в переменную
+            script[f'window.WS_URL = "ws://ws.test:8080/ws";'],#кладем адрес в переменную
             script(src="/static/app.js")  
         ],
     ]

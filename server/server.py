@@ -21,7 +21,7 @@ def root(request: Request):
         body[
             h1["Тема:"],
             h2[TOPIC],
-            a(href="http://127.0.0.1:8003/")["Перейти на client-сервер"],
+            a(href="http://client.test:8080/")["Перейти на client-сервер"],
             p["ляляляляляля"],
             ],
                     ] 
