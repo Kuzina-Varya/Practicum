@@ -5,3 +5,8 @@ env/
 ENV/
 venv.bak/
 .env
+
+# --- reverse_proxy ---
+reverse_proxy/*.exe
+reverse_proxy/*.zip
+reverse_proxy/caddy*
