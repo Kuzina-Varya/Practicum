@@ -22,7 +22,7 @@ def root(request: Request):
             h1["Тема:"],
             h2[TOPIC],
             a(href="http://client.test:8080/")["Перейти на client-сервер"],
-            p["ляляляляляля"],
+            p[""],
             ],
                     ] 
         return HTMLResponse(content="<!doctype html>\n" + str(html_text))

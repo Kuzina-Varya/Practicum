@@ -1,15 +1,16 @@
 {
-  auto_https off
+    auto_https off
+    debug
 }
 
-theme.test:8080 {
-  reverse_proxy 127.0.0.1:8001
+http://theme.test:8080 {
+    reverse_proxy http://127.0.0.1:8001
 }
 
-client.test:8080 {
-  reverse_proxy 127.0.0.1:8003
+http://client.test:8080 {
+    reverse_proxy http://127.0.0.1:8003
 }
 
-ws.test:8080 {
-  reverse_proxy 127.0.0.1:8002
+http://ws.test:8080 {
+    reverse_proxy http://127.0.0.1:8002
 }

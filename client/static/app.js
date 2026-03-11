@@ -5,7 +5,7 @@ const btn = document.getElementById("btn");
 
 btn.disabled = true;
 
-const ws = new WebSocket(window.WS_URL);
+const ws = new WebSocket("ws://ws.test:8080/ws");
 
 ws.onopen = () => {
   statusEl.textContent = "Соединение WebSocket установлено";
